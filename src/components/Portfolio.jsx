@@ -1,32 +1,28 @@
 import React from 'react';
-import ReactProject from '../assets/portfolio/reactProject.png'
+import ReactProject from '../assets/portfolio/reactRouterProject.png'
+import vueRouterProject from '../assets/portfolio/vueRouterProject.png'
+import vueWeatherApp from '../assets/portfolio/vueWeatherApp.png'
 
 const Portfolio = () => {
 
   const portfolios = [
     {
       id: 1,
-      src: ReactProject
+      src: ReactProject,
+      hrefCode: 'https://github.com/anshul-sharma-in/react-projects',
+      hrefDemo: 'https://d3tvgl2cco775n.cloudfront.net/index.html'
     },
     {
       id: 2,
-      src: ReactProject
+      src: vueRouterProject,
+      hrefCode: 'https://github.com/anshul-sharma-in/vue-router-project',
+      hrefDemo: 'https://d2y7j4c94oa51f.cloudfront.net/index.html'
     },
     {
       id: 3,
-      src: ReactProject
-    },
-    {
-      id: 4,
-      src: ReactProject
-    },
-    {
-      id: 5,
-      src: ReactProject
-    },
-    {
-      id: 6,
-      src: ReactProject
+      src: vueWeatherApp,
+      hrefCode: 'https://github.com/anshul-sharma-in/vue-weather-app',
+      hrefDemo: 'https://d3v7oc6juf0ijq.cloudfront.net/index.html'
     }
   ];
 
@@ -44,12 +40,20 @@ const Portfolio = () => {
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, hrefCode, hrefDemo }) => (
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-              <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+              <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 h-48' />
               <div className='flex items-center justify-center'>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Demo</button>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Code</button>
+                <a 
+                  href={hrefDemo} 
+                  target='_blank'
+                  rel='noreferrer' 
+                  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Demo</a>
+                <a 
+                  href={hrefCode} 
+                  target='_blank'
+                  rel='noreferrer' 
+                  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Code</a>
               </div>
             </div>
           ))}

@@ -1,5 +1,5 @@
 import React from 'react'
-import MyImage from '../assets/myImage.jpg';
+import MyImage from '../assets/myNewImage.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll'
 
@@ -12,7 +12,7 @@ const Home = () => {
               I'm a full Stack Developer
             </h2>
             <p className='text-gray-500 py-4 max-w-md'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ex sit, aspernatur facilis nostrum labore aut dolorem cum quis necessitatibus iste harum nemo? Quam vel aspernatur earum aut nam eos.
+            Hello! I'm Anshul Sharma, a passionate full-stack engineer dedicated to crafting robust and user-centric software solutions. With 3 years of experience in the tech industry, I thrive on solving complex problems and bringing ideas to life through code.
             </p>
 
             <div>

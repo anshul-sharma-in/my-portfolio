@@ -6,7 +6,7 @@ import javaIcon from '../assets/javaIcon.png';
 import reactIcon from '../assets/reactIcon.png';
 import vueIcon from '../assets/vueIcon.png';
 import angularIcon from '../assets/angularIcon.png';
-import dotnetIcon from '../assets/dotnetIcon.png';
+import dotnetIcon from '../assets/dot-net.png';
 
 const Experience = () => {
 
@@ -33,13 +33,13 @@ const Experience = () => {
       id: 4,
       src: reactIcon,
       title: 'React',
-      style: 'shadow-blue-600'
+      style: 'shadow-blue-400'
     },
     {
       id: 5,
       src: vueIcon,
       title: 'Vue',
-      style: 'shadow-blue-200'
+      style: 'shadow-green-200'
     },
     {
       id: 6,
@@ -51,13 +51,13 @@ const Experience = () => {
       id: 7,
       src: javaIcon,
       title: 'Java',
-      style: 'shadow-gray-400'
+      style: 'shadow-blue-200'
     },
     {
       id: 8,
       src: dotnetIcon,
       title: 'Dotnet',
-      style: 'shadow-pink-400'
+      style: 'shadow-blue-500'
     }
   ]
 
@@ -66,7 +66,7 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-          <p className='py-6'>These are technology I have worked on</p>
+          <p className='py-6'>These are few technologies I have worked on</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
