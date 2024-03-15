@@ -9,16 +9,6 @@ const About = () => {
             About
           </p>
         </div>
-        {/* <p className='text-xl mt-20'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero cumque distinctio, totam nihil perferendis ipsa dolore minus, deleniti pariatur dolores eligendi provident! Accusantium omnis debitis sed placeat reprehenderit doloribus perferendis, expedita consectetur modi corrupti distinctio et doloremque ut, animi suscipit rem, commodi necessitatibus! Vitae similique culpa totam magni quas?
-        </p>
-
-        <br />
-
-        <p className='text-xl'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ab quisquam eveniet fuga nostrum laboriosam dolor quos aliquam, esse voluptate nisi cum, itaque velit perspiciatis? Cupiditate error placeat incidunt, ea architecto sint quod vitae minus quos obcaecati veritatis autem neque quaerat possimus et nesciunt pariatur itaque soluta fuga. Vel, veritatis?
-        </p> */}
-
         <p className='text-xl mt-20'>Greetings! I'm Anshul Sharma, a versatile full-stack engineer with a passion for transforming ideas into impactful digital solutions.</p>
         
         <br />
