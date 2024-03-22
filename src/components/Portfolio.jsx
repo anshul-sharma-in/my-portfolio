@@ -10,19 +10,19 @@ const Portfolio = () => {
       id: 1,
       src: ReactProject,
       hrefCode: 'https://github.com/anshul-sharma-in/react-projects',
-      hrefDemo: 'https://d3tvgl2cco775n.cloudfront.net/index.html'
+      hrefDemo: 'http://react-firstproject.s3-website-ap-southeast-2.amazonaws.com/'
     },
     {
       id: 2,
       src: vueRouterProject,
       hrefCode: 'https://github.com/anshul-sharma-in/vue-router-project',
-      hrefDemo: 'https://d2y7j4c94oa51f.cloudfront.net/index.html'
+      hrefDemo: 'http://vue-routerproject.s3-website-ap-southeast-2.amazonaws.com/#/'
     },
     {
       id: 3,
       src: vueWeatherApp,
       hrefCode: 'https://github.com/anshul-sharma-in/vue-weather-app',
-      hrefDemo: 'https://d3v7oc6juf0ijq.cloudfront.net/index.html'
+      hrefDemo: 'http://vue-weatherapp.s3-website-ap-southeast-2.amazonaws.com/'
     }
   ];
 
